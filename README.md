@@ -12,7 +12,8 @@ https://drive.google.com/file/d/1Dv-HF10AUUA03AO_cQvar462eXawk0iQ/view?usp=shari
 #### Youtube advertisers pay content creators based on adviews and clicks for the goods and services being marketed. They want to estimate the adview based on other metrics like comments, likes etc. The problem statement is therefore to train various regression models and choose the best one to predict the number of adviews. The data needs to be refined and cleaned before feeding in the algorithms for better results.
 
 ### Attribute Information
-#### 'vidid' : Unique Identification ID for each video
+#### 
+     'vidid' : Unique Identification ID for each video
      'adview' : The number of adviews for each video
      'views' : The number of unique views for each video
      'likes' : The number of likes for each video
@@ -26,7 +27,8 @@ https://drive.google.com/file/d/1Dv-HF10AUUA03AO_cQvar462eXawk0iQ/view?usp=shari
 #### To build a machine learning regression to predict youtube adview count based on other youtube metrics.
 
 ### Steps and Tasks :
-#### 1. Import the datasets and libraries, check shape and datatype.
+#### 
+     1. Import the datasets and libraries, check shape and datatype.
      2. Visualise the dataset using plotting using heatmaps and plots. You can study data distributions for each attribute as well.
      3. Clean the dataset by removing missing values and other things.
      4. Transform attributes into numerical values and other necessary transformations
